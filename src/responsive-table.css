@@ -1,0 +1,18 @@
+@media only screen and (max-width: 640px) {
+  table.rt thead {
+    display: none;
+  }
+  table.rt tbody tr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  table.rt tbody tr td {
+    display: flex;
+    flex-direction: column;
+  }
+  table.rt td[data-header]:before {
+    display: block;
+    content: attr(data-header);
+  }
+}

@@ -1,0 +1,1 @@
+@media only screen and (max-width:640px){table.rt thead{display:none}table.rt tbody tr{width:100%}table.rt tbody tr,table.rt tbody tr td{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}table.rt td[data-header]:before{display:block;content:attr(data-header)}}
